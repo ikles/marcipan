@@ -291,12 +291,12 @@ h1, .component__h1 {
   margin-right: 90px; }
 
 .form2 {
-  width: 900px;
+  width: 600px;
   margin: auto; }
 
 .form2 input[type=text] {
-  height: 64px;
-  width: 642px;
+  height: 44px;
+  width: 425px;
   float: left;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -306,16 +306,22 @@ h1, .component__h1 {
 
 .mail_phone {
   background: url("../img/mail_phone.jpg") no-repeat 0 0;
-  width: 258px;
-  height: 64px;
+  -webkit-background-size: 100%;
+       -o-background-size: 100%;
+          background-size: 100%;
+  width: 175px;
+  height: 45px;
   display: block;
   float: left;
   padding: 0; }
 
 .name {
   background: url("../img/name.jpg") no-repeat 0 0;
-  width: 258px;
-  height: 64px;
+  -webkit-background-size: 100%;
+     -o-background-size: 100%;
+        background-size: 100%;
+  width: 175px;
+  height: 45px;
   display: block;
   float: left; }
 
@@ -327,8 +333,8 @@ h1, .component__h1 {
   overflow: hidden; }
 
 .form2 textarea {
-  width: 900px;
-  height: 140px;
+  width: 600px;
+  height: 100px;
   padding: 0;
   font-size: 25px;
   border: 1px solid #BDA588;
@@ -339,8 +345,11 @@ h1, .component__h1 {
 
 .form2 input[type=submit] {
   background: url("../img/submit.jpg") no-repeat 0 0;
-  width: 258px;
-  height: 64px;
+  -webkit-background-size: 100%;
+       -o-background-size: 100%;
+          background-size: 100%;
+  width: 175px;
+  height: 45px;
   padding: 0;
   border: 0;
   margin: 0;
