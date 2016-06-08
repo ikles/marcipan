@@ -1,0 +1,224 @@
+#contactform input[type="email"], #contactform input[type="tel"], #contactform input[type="text"] {
+	font-size: 15px;
+	border: 1px solid #ccc;
+	padding: 0px 7px;
+	margin: 0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	text-shadow: #BBBBBB 0px 1px 2px;
+	height: 25px;
+	text-align: left;
+	-moz-box-shadow: inset 1px 1px 4px #ccc;
+	-webkit-box-shadow: inset 1px 1px 4px #ccc;
+	box-shadow: inset 1px 1px 4px #ccc;
+	margin: 5px;
+	width: 90%;
+	color:#000;
+}
+#contactform textarea{
+	resize: none;
+	font-family: 'arial', sans-serif;
+	padding: 6px;
+	width: 271px;
+	height: 80px;
+	font-size: 15px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	text-shadow: #BBBBBB 0px 1px 2px;
+	text-align: left;
+	-moz-box-shadow: inset 1px 1px 4px #ccc;
+	-webkit-box-shadow: inset 1px 1px 4px #ccc;
+	box-shadow: inset 1px 1px 4px #ccc;
+	margin: 5px;
+	color:#000;
+}
+#contactform input[type="checkbox"] {
+	float: left;
+	color:#000;
+	margin-left:17px;
+}
+
+#contactform h6 {
+	display: block;
+	font-size: 16px;
+	margin: 5px;
+	color:#000;
+}
+#contactform .button{
+	background: -webkit-gradient(linear, left top, right top, from(#3d51c8), to(#051fb8));
+	background: -webkit-linear-gradient(top, #3d51c8, #051fb8);
+	background: -moz-linear-gradient(top, #3d51c8, #051fb8);
+	background: -o-linear-gradient(top, #3d51c8, #051fb8);
+	background: -ms-linear-gradient(top, #3d51c8, #051fb8);
+	background: linear-gradient(top, #3d51c8, #051fb8);
+	background-color: #3d51c8;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: 1px 0px 1px rgba(34, 36, 36, .75);
+	border: 1px solid #061fb8;
+	color: #ffffff;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	width: 98px;
+	padding: 6px;
+	outline: medium none;
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px auto;
+	text-decoration: none;
+	cursor: pointer;
+	box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+	color:#000;
+}
+#contactform .button:hover {
+	background: -webkit-gradient(linear, left top, right top, from(#051fb8), to(#3d51c8));
+	background: -webkit-linear-gradient(top, #051fb8, #3d51c8);
+	background: -moz-linear-gradient(top, #ff5f0, #3d51c87);
+	background: -o-linear-gradient(top, #051fb8, #3d51c8);
+	background: -ms-linear-gradient(top, #051fb8, #3d51c8);
+	background: linear-gradient(top, #051fb8, #3d51c8);
+	background-color: #051fb8;
+	border: 1px solid #00385E;
+	text-decoration: none;
+	color:#000;
+}
+#contactform .button:active, #contactform input[type="submit"].button:disabled {
+	opacity: 0.5;
+	background: -webkit-gradient(linear, left top, right top, from(#3d51c8), to(#051fb8));
+	background: -webkit-linear-gradient(top, #3d51c8, #051fb8);
+	background: -moz-linear-gradient(top, #3d51c8, #051fb8);
+	background: -o-linear-gradient(top, #3d51c8, #051fb8);
+	background: -ms-linear-gradient(top, #3d51c8, #051fb8);
+	background: linear-gradient(top, #3d51c8, #051fb8);
+	background-color: #3d51c8;
+	cursor: default;
+	color:#000;
+}
+#contactform .phoneFormat {
+	line-height: 12px;
+	font-size: 12px;
+	color: #cacaca;
+	position: relative;
+	z-index: 20;
+	padding: 0;
+	margin: 2px;
+	color:#000;
+}
+#contactform label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#000;
+}
+
+#contactform {color:#000;}
+
+
+
+
+#contactform .button:active, #contactform input.button[type="submit"]:disabled {
+  background: repeat scroll 0 0 #be002d;
+  color: #000;
+  cursor: default;
+  opacity: 0.5;
+	margin-top:16px;
+}
+
+#contactform input[type="email"], #contactform input[type="tel"], #contactform input[type="text"] {box-shadow:none;}
+#contactform label {font-family: 'Roboto', sans-serif;}
+
+#label2 {margin-bottom:10px;}
+
+/* Базовые стили слоя затемнения и модального окна */
+.overlay {
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+visibility: hidden;
+/* фон затемнения */
+background-color: rgba(0, 0, 0, 0.7);
+opacity: 0;
+position: fixed; /* фиксированное поцизионирование */
+cursor: default; /* тип курсара */
+-webkit-transition: opacity .5s;
+-moz-transition: opacity .5s;
+-ms-transition: opacity .5s;
+-o-transition: opacity .5s;
+transition: opacity .5s;
+}
+.overlay:target {
+visibility: visible;
+opacity: 1;
+}
+.is-image {
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+display:block;
+margin: auto;
+width: 100%;
+height: auto;
+/* скругление углов встроенных картинок */
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+border-radius: 4px;
+}
+/* встроенные элементы м-медиа, фреймы */
+embed, iframe {
+top: 0;
+right: 0;
+bottom: 0; 
+left: 0; 
+display:block;
+margin: auto;
+min-width: 320px;
+max-width: 600px;
+width: 100%;
+}
+.popup h1 { /* заголовок 1 */
+color: #008000;
+text-align: left;
+text-shadow: 0 1px 3px rgba(0,0,0,.3);
+font:24px 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+}
+.popup h2 { /* заголовок 2 */
+color: #008000;
+text-align: left;
+text-shadow: 0 1px 3px rgba(0,0,0,.3);
+font:22px 'Trebuchet MS', Helvetica, sans-serif;
+}
+/*** Формируем стили модального окна ***/
+.popup {
+z-index: 10;
+display: block;
+visibility: hidden;
+/* фиксированное позиционирование, окно стабильно при прокрутке */
+position: fixed;
+padding: 50px;
+transition: all ease .5s;
+margin: 0 auto!important;
+width: 100%!important;
+min-width: 900px!important;
+max-width: 900px!important;
+top: 20%!important;
+right: 0px!important;
+left: 0!important;
+background-color: #FFF;
+}
+/* активируем появление окна и затемнение фона */
+.overlay:target+.popup {
+top: 20%; /* положение окна от верха страницы при появлении */
+visibility: visible;
+opacity: 1; /* убираем прозрачность */
+}

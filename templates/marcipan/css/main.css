@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline; }
+
+:focus {
+outline: 0; }
+
+body {
+line-height: 1;
+color: black;
+background: white; }
+
+ol, ul {
+list-style: none; }
+
+table {
+border-collapse: separate;
+border-spacing: 0; }
+
+caption, th, td {
+text-align: left;
+font-weight: normal; }
+
+blockquote:before, blockquote:after {
+content: ""; }
+
+q:before, q:after {
+content: ""; }
+
+blockquote, q {
+quotes: "" ""; }
+
+@font-face {
+font-family: Calibri;
+src: url(../fonts/calibri.ttf); }
+
+body {
+font-family: Calibri; }
+
+#wrapper {
+width: 100%;
+overflow: hidden;
+background-color: #FBE5BE; }
+
+#center {
+width: 1373px;
+margin: auto;
+background: url("../img/bg.jpg") no-repeat 0 0;
+min-height: 2176px;
+padding-top: 1px; }
+
+.logo {
+display: block;
+margin: auto;
+width: 588px;
+height: 432px;
+margin-top: 468px; }
+
+.moduletable_adress {
+margin-top: 54px;
+text-align: center;
+color: #9e2131;
+font-size: 38px; }
+
+.moduletable_top_mnu {
+margin-top: 50px;
+overflow: hidden; }
+.moduletable_top_mnu ul {
+text-align: center;
+display: block; }
+.moduletable_top_mnu ul li {
+display: inline-block; }
+.moduletable_top_mnu ul li a {
+color: #9e2131;
+text-decoration: none;
+padding: 30px 45px;
+font-size: 60px;
+text-transform: lowercase;
+border-right: 4px solid #9e2131;
+display: block;
+height: 100px;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+line-height: 0.5; }
+.moduletable_top_mnu ul li a:hover {
+text-decoration: underline; }
+.moduletable_top_mnu ul li:last-child a {
+border-right: none; }
+
+.moduletable_prepay {
+color: #9e2131;
+text-align: center;
+margin: auto;
+width: 1005px;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding: 40px 40px 40px 95px;
+font-size: 74px;
+margin-top: 125px;
+border: 12px solid #9e2131;
+-webkit-border-radius: 25px;
+border-radius: 25px;
+text-transform: lowercase; }
+
+.moduletable_our_croup {
+text-align: center;
+margin: auto;
+width: 930px;
+margin-top: 115px; }
+.moduletable_our_croup, .moduletable_our_croup p, .moduletable_our_croup a {
+color: #9e2131;
+font-size: 70px;
+text-decoration: none; }
+.moduletable_our_croup a:hover {
+text-decoration: underline; }
+
+.moduletable_vk_module {
+margin: auto;
+width: 700px;
+overflow: hidden;
+margin-top: 45px; }
