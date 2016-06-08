@@ -127,9 +127,14 @@ body {
   margin: 30px 0; }
 
 .component__module, .moduletable_component__module {
-  width: 880px;
+  width: 680px;
   margin: auto;
   margin-bottom: 20px; }
+
+.custom_component__module.vk_insta_flamp {
+ width: 880px; 
+ margin: auto;
+}
 
 .component__text, .custom_component__module {
   width: 680px;
@@ -138,12 +143,12 @@ body {
 .component__p, .moduletable_component__module p, .moduletable_component__module, p {
   color: #430e00;
   font-family: Arial;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 400;
   line-height: 1.3; }
 
 .component__p, .moduletable_component__module p, p {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .mbn {
@@ -230,23 +235,33 @@ h1, .component__h1 {
 
 .bron {
   background: url("../img/bron.png") no-repeat 0 0;
-  width: 1010px;
-  height: 289px;
+  width: 680px;
+  height: 195px;
   display: block;
   margin: auto;
   margin-top: 40px;
-  margin-bottom: 100px; }
+  margin-bottom: 20px; }
 
-.item-page img {
+.item-page {
+  padding: 0 40px;
+}
+
+.item-page img, .moduletable_component__module img {
   max-width: 100%;
 }
 
 .w930 {
   width: 930px; }
 
+.moduletable_880 {
+  width: 880px;
+  margin: auto;
+  overflow: hidden;
+}
+
 .module.img_module, .moduletable_marcipaniya {
   text-align: center;
-  margin-bottom: 80px; }
+  margin-bottom: 30px; }
 
 .component__module.w100per, .component__text.w100per {
   width: 100%; }
@@ -260,21 +275,20 @@ h1, .component__h1 {
 
 .vk_insta_flamp {
   margin: auto;
-  width: 1000px;
+  width: 880px;
   text-align: center;
-  margin-bottom: 135px;
-  margin-top: 75px; }
+  margin-bottom: 40px;
+  margin-top: 40px; }
   .vk_insta_flamp a {
     display: inline-block; }
     .vk_insta_flamp a:last-child {
       margin-right: 0; }
 
 .vk {
-  margin-right: 70px;
- /* margin-left: 78px; */}
+  margin-right: 90px;}
 
 .insta {
-  margin-right: 40px; }
+  margin-right: 90px; }
 
 .form2 {
   width: 900px;
