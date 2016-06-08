@@ -136,6 +136,15 @@ body {
  margin: auto;
 }
 
+.vk_insta_flamp table {
+  width: 100%;
+}
+
+.vk_insta_flamp td {
+  width: 30%;
+  text-align: center;
+}
+
 .component__text, .custom_component__module {
   width: 680px;
   margin: auto; }
@@ -285,10 +294,10 @@ h1, .component__h1 {
       margin-right: 0; }
 
 .vk {
-  margin-right: 90px;}
+  }
 
 .insta {
-  margin-right: 90px; }
+  }
 
 .form2 {
   width: 600px;

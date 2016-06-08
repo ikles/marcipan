@@ -19,6 +19,7 @@ $app = JFactory::getApplication();
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=1358px">
+    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/common.js"></script>
   </head>
   <body>
   	<div class="s-wrapper">
@@ -41,10 +42,9 @@ $app = JFactory::getApplication();
   		<div class="s-footer">
   			<jdoc:include type="modules" name="footer-adress" style="mystyle" />
   		</div><!--s-footer-->
-  	</div><!--s-wrapper-->
-  	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/common.js"></script>
+  	</div><!--s-wrapper-->  	
   	<script>
-
   	</script>		
   </body>
   </html>
+
