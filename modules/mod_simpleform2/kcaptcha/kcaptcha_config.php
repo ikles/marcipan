@@ -23,14 +23,14 @@ $allowed_symbols = "0123456789"; #digits
 $fontsdir = 'fonts';	
 
 # CAPTCHA string length
-$length = mt_rand(5,6); # random 5 or 6
+$length = mt_rand(4,4); # random 5 or 6
 
 # CAPTCHA image size (you do not need to change it, whis parameters is optimal)
 $width = 200;
-$height = 60;
+$height = 80;
 
 # symbol's vertical fluctuation amplitude divided by 2
-$fluctuation_amplitude = 5;
+$fluctuation_amplitude = 2;
 
 # increase safety by prevention of spaces between symbols
 $no_spaces = true;
@@ -40,10 +40,10 @@ $show_credits = false; # set to false to remove credits line. Credits adds 12 pi
 $credits = 'www.allforjoomla.ru'; # if empty, HTTP_HOST will be shown
 
 # CAPTCHA image colors (RGB, 0-255)
-//$foreground_color = array(0, 0, 0);
-//$background_color = array(220, 230, 255);
-$foreground_color = array(mt_rand(0,100), mt_rand(0,100), mt_rand(0,100));
-$background_color = array(mt_rand(200,255), mt_rand(200,255), mt_rand(200,255));
+$foreground_color = array(0, 0, 0);
+$background_color = array(249, 236, 204);
+//$foreground_color = array(mt_rand(0,100), mt_rand(0,100), mt_rand(0,100));
+//$background_color = array(mt_rand(200,255), mt_rand(200,255), mt_rand(200,255));
 
 # JPEG quality of CAPTCHA image (bigger is better quality, but larger file size)
 $jpeg_quality = 90;

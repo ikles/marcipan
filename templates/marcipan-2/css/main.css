@@ -185,7 +185,8 @@ ul.sigFreeClassic li.sigFreeThumb {
 }
 
 .sigFreeImg, .sigFreeLink {
-    width: 422px !important;
+    width: 408px !important;
+    height: 285px !important;
 }
 
 .s-footer {
@@ -227,6 +228,7 @@ ul.sigFreeClassic li.sigFreeThumb {
 
 .component {
   padding-bottom: 40px;
+  overflow: hidden;
 }
 
 h1, .component__h1 {
@@ -293,12 +295,6 @@ h1, .component__h1 {
     .vk_insta_flamp a:last-child {
       margin-right: 0; }
 
-.vk {
-  }
-
-.insta {
-  }
-
 .form2 {
   width: 600px;
   margin: auto; }
@@ -312,6 +308,32 @@ h1, .component__h1 {
   border: 1px solid #BDA588;
   font-size: 25px;
   font-family: Calibri; }
+
+.captch {
+  width: 425px;
+  float: right;
+}
+
+.sf2Captcha {
+    float: right;
+    width: 175px;
+    height: 44px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 4px solid #bda588;
+}
+
+.form2 input[type="text"].captch {
+  width: 220px;
+  float: right;
+  font-size: 17px;
+  font-style: italic;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 10px;
+}
 
 .mail_phone {
   background: url("../img/mail_phone.jpg") no-repeat 0 0;
@@ -354,15 +376,16 @@ h1, .component__h1 {
 
 .form2 input[type=submit] {
   background: url("../img/submit.jpg") no-repeat 0 0;
-  -webkit-background-size: 100%;
-       -o-background-size: 100%;
-          background-size: 100%;
+  -webkit-background-size: 101%;
+       -o-background-size: 101%;
+          background-size: 101%;
   width: 175px;
-  height: 45px;
+  height: 44px;
   padding: 0;
   border: 0;
   margin: 0;
-  cursor: pointer; }
+  cursor: pointer; 
+  float: left;}
 
 .djslider-default .slider-container {
   left: -255px;
@@ -412,5 +435,5 @@ width: 960px;
 .fixed {
  position: fixed;
  top: 0px; /*здесь указываем отступ сверху*/
- z-index: 9999; /*устанавливаем блок поверх всех элементов на странице*/
+ z-index: 99; /*устанавливаем блок поверх всех элементов на странице*/
 }

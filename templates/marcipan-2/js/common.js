@@ -9,7 +9,7 @@ jQuery( document ).ready(function( $ ) {
  	var top = $(document).scrollTop();
  	if (top > topPos) {
  		$('.floating').addClass('fixed');
- 		$('.top').css({'margin-top':'0','background':'#f6dba6'});
+ 		$('.top').css({'margin-top':'0','background':'#fff5d1'});
  	}
  	else {
  		$('.floating').removeClass('fixed');

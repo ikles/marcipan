@@ -141,7 +141,7 @@ top: 0;
 right: 0;
 bottom: 0;
 left: 0;
-z-index: 1;
+z-index: 100;
 visibility: hidden;
 /* фон затемнения */
 background-color: rgba(0, 0, 0, 0.7);
@@ -200,22 +200,29 @@ font:22px 'Trebuchet MS', Helvetica, sans-serif;
 }
 /*** Формируем стили модального окна ***/
 .popup {
-z-index: 10;
+z-index: 100;
 display: block;
 visibility: hidden;
 /* фиксированное позиционирование, окно стабильно при прокрутке */
 position: fixed;
-padding: 50px;
+padding: 3px;
 transition: all ease .5s;
 margin: 0 auto!important;
 width: 100%!important;
-min-width: 900px!important;
-max-width: 900px!important;
+min-width: 600px!important;
+max-width: 600px!important;
 top: 20%!important;
 right: 0px!important;
 left: 0!important;
-background-color: #FFF;
+background-color: #fff5d1;
+width: 600px !important;
 }
+
+.popup form {
+width: 600px !important;
+overflow: hidden;	
+}
+
 /* активируем появление окна и затемнение фона */
 .overlay:target+.popup {
 top: 20%; /* положение окна от верха страницы при появлении */
